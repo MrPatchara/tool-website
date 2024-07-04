@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool 1 Details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-light pixel-font">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Program Tools</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">PYTHON TO EXE CONVERTER </h1>
+        <p>โปรแกรมแปลงไฟล์ Code python.py ไปเป็น .exe สําหรับ run บน windows.</p>
+        <br>
+        <center>
+            <img src="/pic/tool1.jpg" alt="Tool 1" class="img-fluid pixel-border">
+        </center><br>
+        <h2>สิ่งที่ต้องมีก่อนใช้งานได้!</h2>
+        <p>-Python3 </p>
+        <p>-Pyinstaller หากยังไม่มี ให้ติดตั้งก่อนโดย cmd คําสั่ง > pip install pyinstaller </p><br>
+
+        <h2>วิธีใช้งานโปรแกรม</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JU_EWwhS-ck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><br>
+        <p>Step1 -รันโปรแกรม Program_py_to_exe.bat</p>
+        <p>Step2 -เลือกไฟล์ .py ที่ต้องการแปลง</p>
+        <p>Step3 -เลือกไดเรกทอรีที่ต้องการเก็บไฟล์ .exe</p>
+        <p>Step4 -(ถ้ามี) เลือกไฟล์ไอคอน .ico</p>
+        <p>Step5 -เลือกตัวเลือกการสร้างไฟล์เดียว (--onefile) หรือการปิดหน้าต่างคอนโซล (--windowed)
+        </p>
+        <p>Step6 -กดปุ่ม Convert to EXE </p>
+        <p>Step7 -กดปุ่ม Contact Developer เพื่อดูข้อมูลติดต่อผู้พัฒนา</p>
+        <p>Step8 -ใช้ปุ่ม Reset เพื่อรีเซ็ตฟอร์ม (โปรแกรมจะบันทึกการตั้งค่าเมื่อปิดโปรแกรม)
+        </p><br>
+
+        <a href="#" class="btn btn-secondary pixel-btn"
+        id="downloadButton1">Download Program!</a><br><br>
+
+        <h2>FAQ</h2>
+        <p>กรณีที่ต้องการติดตั้ง PyInstaller ในระบบ จำเป็นต้องมีสิทธิ์ในการดำเนินการติดตั้งแพ็กเกจใน Python (pip install)</p>
+        <a href="index.html" class="btn btn-primary pixel-btn mt-3">Back</a>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark text-light pixel-border">
+        <div class="container text-center">
+            <span>&copy; 2024 Create by Mr.Patchara Al-umaree</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
