@@ -12,7 +12,7 @@ GitHub: https://github.com/MrPatchara`);
 //download ของจริง tool1
 document.getElementById('downloadButton1').addEventListener('click', function() {
     const fileName = 'Download_Program_py_to_exe.zip'; // ชื่อไฟล์ที่ต้องการดาวน์โหลด
-    const filePath = `${fileName}`; // เส้นทางไปยังไฟล์ที่ต้องการดาวน์โหลด
+    const filePath = `https://github.com/MrPatchara/tool-website/blob/main/${fileName}`; // เส้นทางไปยังไฟล์ที่ต้องการดาวน์โหลด
 
     // สร้างลิงก์ดาวน์โหลดชั่วคราว
     const link = document.createElement('a');
