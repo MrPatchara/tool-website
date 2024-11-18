@@ -29,4 +29,8 @@ document.getElementById('downloadButton5').addEventListener('click', function() 
     window.location.href = 'https://drive.google.com/file/d/1dj3FYHo3VnzqoE0-9SQO-SL40uCy-IU7/view';
 });
 
+document.getElementById('downloadButton6').addEventListener('click', function() {
+    window.location.href = 'https://drive.google.com/file/d/1-bWz4MXINGtI6qgKS91t-UeCOK3I5paD/view?usp=sharing';
+});
+
 
